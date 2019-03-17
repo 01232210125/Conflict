@@ -27,6 +27,8 @@ function bodauTiengViet(str) {
 }
 
 var Cate1 = require('../model/Cate.js');
+var Cate = require('../model/Cate.js');
+var Cate2 = require('../model/Cate.js');
 var Product = require('../model/Product.js');
 
 /* GET home page. */
