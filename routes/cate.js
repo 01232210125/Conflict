@@ -43,7 +43,7 @@ router.post('/them-cate.html',  function(req, res, next) {
 	if (errors) {
 	  res.render('admin/cate/them',{errors : errors});
 	}
-	var cate = new Cate({
+	var cate2 = new Cate2({
 		name 			: req.body.name,
 		nameKhongDau 	: bodauTiengViet(req.body.name)
 	});
