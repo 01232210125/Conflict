@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-var a
+var anh
 router.get('/test-1', function(req, res, next) {
   res.render('/sites/page/test1');
 });
